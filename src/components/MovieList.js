@@ -6,7 +6,7 @@ return(
   props.movie.map(element =>{
     return (
       <>
-      <Movie dataOfMovie={element}/>
+      <Movie dataOfMovie={element} UpdateMovies={props.UpdateMovies}/>
       </>
     )
   })
